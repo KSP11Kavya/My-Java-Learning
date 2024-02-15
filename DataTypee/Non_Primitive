@@ -1,0 +1,16 @@
+package DataTypee;
+
+public class Non_Primitive {
+    int x;
+    int y;
+
+    
+}
+Class Test {
+    public static void main(String[] args) {
+        Non_Primitive p = new Non_Primitive();
+        p.x =10;
+        p.y =20;
+        System.out.println(p.x + " "+p.y);
+    }
+}
