@@ -1,14 +1,15 @@
 package AutoboxingandUnboxing;
+import java.lang.*;
+
 
 public class AutoboxingandUnboxingg {
+
     public static void main(String[] args) {
-      int  x1 = 10;
-    Integer x2 =x1;
-    int x3 = x2 ; 
-    System.out.println(x1);
-    System.out.println(x2);
-    System.out.println(x3);
-        
+     int a =10;
+     Integer b = new Integer(a);
+     System.out.println(a);
+     System.out.println(b);
+      
     }
   
 }
